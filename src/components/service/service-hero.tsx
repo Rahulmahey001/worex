@@ -13,11 +13,8 @@ export default function ServiceHero() {
           <div className="col-xl-10">
             <div className="sv-hero-title-box">
               <h4 className="sv-hero-title tp-char-animation">
-                Experience <br /> the best services.
+                About us
               </h4>
-              <p className="tp_fade_bottom">
-                Fulfilled direction use continual set him propriety continued.
-              </p>
             </div>
           </div>
         </div>
@@ -32,12 +29,6 @@ export default function ServiceHero() {
                   style={{height:"auto"}}
                 />
               </div>
-              <Image
-                className="sv-hero-thumb-shape d-none d-lg-block"
-                src={ser_hero_shape}
-                alt="ser_hero-shape"
-                style={{height:"auto"}}
-              />
             </div>
           </div>
         </div>

@@ -9,10 +9,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import Wrapper from "@/layouts/wrapper";
 import HeaderEleven from "@/layouts/headers/header-eleven";
-import { ServiceItems } from "@/components/service/service-five";
 import ServiceHero from "@/components/service/service-hero";
-import ServiceSix from "@/components/service/service-six";
-import { BrandItems } from "@/components/brand/brand-two";
 import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
 import { Leaf } from "@/components/svg";
@@ -54,9 +51,9 @@ const ServiceMain = () => {
                     <div className="tp-service-5-title-box mb-90">
                       <span className="ab-inner-subtitle mb-20">
                         <Leaf />
-                        Services
+                        About us
                       </span>
-                      <h4 className="tp-service-5-title">
+                      <h4 className="tp_fade_bottom">
                         We strongly believe that only design reinforced by{" "}
                         <br />
                         strategy can provide real results.
@@ -64,26 +61,9 @@ const ServiceMain = () => {
                     </div>
                   </div>
                 </div>
-                <div className="tp-service-5-wrap">
-                  <ServiceItems />
-                </div>
               </div>
             </div>
             {/* service area */}
-
-            {/* service area */}
-            <ServiceSix />
-            {/* service area */}
-
-            {/* brand area */}
-            <div className="tp-brand-4-area pt-120 pb-120">
-              <div className="container">
-                <div className="row gx-0">
-                  <BrandItems />
-                </div>
-              </div>
-            </div>
-            {/* brand area */}
 
             {/* line image slider  */}
             <LineImgSlider />
