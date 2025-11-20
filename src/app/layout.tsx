@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import {
   Syne,
   Aladin,
@@ -8,6 +9,8 @@ import {
 import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "./globals.scss";
+import { GA_TRACKING_ID, pageview } from '@/lib/gtag';
+
 
 const gellery = localFont({
   src: [
@@ -83,7 +86,28 @@ export default function RootLayout({
         suppressHydrationWarning={true}
         className={`${gellery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
       >
-        <ThemeProvider defaultTheme="light">{children}</ThemeProvider>
+        <ThemeProvider defaultTheme="light">
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
+
+          {children}</ThemeProvider>
       </body>
     </html>
   );
