@@ -7,7 +7,6 @@ import HeaderMenus from "./header-menus";
 import useSticky from "@/hooks/use-sticky";
 import logo from "@/assets/img/logo/logo.png";
 import logo_2 from "@/assets/img/logo/logo-white.png";
-import CartOffcanvas from "@/components/offcanvas/cart-offcanvas";
 import MobileOffcanvas from "@/components/offcanvas/mobile-offcanvas";
 
 // prop type 
@@ -53,41 +52,11 @@ export default function HeaderEleven({transparent=false,cls=''}: IProps) {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-6 col-md-6 col-6">
-                <div className="tp-inner-header-right-action text-end">
-                  <ul>
-                    <li>
-                      <div className="tp-inner-cart">
-                        <a
-                          onClick={() => setOpenCartMini(true)}
-                          className="cartmini-open-btn pointer"
-                        >
-                          <span className="p-relative">
-                            <Cart />
-                            <i>0</i>
-                          </span>
-                        </a>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="tp-inner-bar tp-header-bar">
-                        <button onClick={()=> setOpenOffCanvas(true)} className="tp-offcanvas-open-btn">
-                          <span></span>
-                          <span></span>
-                        </button>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
       </header>
-
-      {/* cart mini */}
-      <CartOffcanvas openCartMini={openCartMini} setOpenCartMini={setOpenCartMini} />
-      {/* cart mini */}
 
       {/* off canvas */}
       <MobileOffcanvas openOffcanvas={openOffCanvas} setOpenOffcanvas={setOpenOffCanvas} />

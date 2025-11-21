@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 // internal imports
-import HeaderNine from "@/layouts/headers/header-nine";
+import HeaderNine from "@/layouts/headers/header-eleven";
 import PortfolioSliderHomeTen from "@/components/portfolio/slider/portfolio-slider-home-ten";
 import ThemeSetting from "@/components/theme-setting";
 

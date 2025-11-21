@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import Wrapper from "@/layouts/wrapper";
 import HeaderEleven from "@/layouts/headers/header-eleven";
-import ServiceHero from "@/components/service/service-hero";
+import Termsconditions from "@/components/terms-conditions/terms-conditions";
 import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
 import { Leaf } from "@/components/svg";
@@ -18,7 +18,7 @@ import FooterTwo from "@/layouts/footers/footer-two";
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
 
-const ServiceMain = () => {
+const TermsconditionsMain = () => {
   useScrollSmooth();
 
   useGSAP(() => {
@@ -40,7 +40,7 @@ const ServiceMain = () => {
         <div id="smooth-content">
           <main>
             {/* service hero */}
-            <ServiceHero />
+            <Termsconditions />
             {/* service hero */}
 
             {/* service area */}
@@ -51,7 +51,7 @@ const ServiceMain = () => {
                     <div className="tp-service-5-title-box mb-90">
                       <span className="ab-inner-subtitle mb-20">
                         <Leaf />
-                        About us
+                        Terms and Conditions
                       </span>
                       <h4 className="tp_fade_bottom">
                         We strongly believe that only design reinforced by{" "}
@@ -83,4 +83,4 @@ const ServiceMain = () => {
   );
 };
 
-export default ServiceMain;
+export default TermsconditionsMain;

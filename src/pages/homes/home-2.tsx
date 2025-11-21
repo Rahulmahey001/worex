@@ -12,7 +12,7 @@ import HeaderTwo from "@/layouts/headers/header-two";
 import HeroBannerTwo from "@/components/hero-banner/hero-banner-two";
 import AboutOne from "@/components/about/about-one";
 import VideoTwo from "@/components/video/video-two";
-import ServiceTwo from "@/components/service/service-two";
+import ServiceTwo from "@/components/aboutus/service-two";
 import ProjectTwo from "@/components/project/project-two";
 import AwardTwo from "@/components/award/award-two";
 import LineText from "@/components/line-text/line-text";

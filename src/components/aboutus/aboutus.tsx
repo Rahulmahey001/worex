@@ -5,7 +5,7 @@ import Image from "next/image";
 import ser_hero from "@/assets/img/inner-service/hero/hero-1.jpg";
 import ser_hero_shape from "@/assets/img/inner-service/hero/hero-shape-1.jpg";
 
-export default function ServiceHero() {
+export default function aboutus() {
   return (
     <div className="sv-hero-area sv-hero-ptb">
       <div className="container container-1530">

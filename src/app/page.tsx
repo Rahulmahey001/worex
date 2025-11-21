@@ -1,15 +1,15 @@
 import React from 'react';
 import { Metadata } from 'next';
-import HomeFourMain from '@/pages/homes/home-4';
+import HomeMain from '@/pages/homes/home-10';
 
 export const metadata: Metadata = {
-  title: "Liko - Home Four Page",
+  title: "Worex - Home Page",
 };
 
-const HomePageFour = () => {
+const HomePage = () => {
   return (
-    <HomeFourMain/>
+    <HomeMain/>
   );
 };
 
-export default HomePageFour;
+export default HomePage;

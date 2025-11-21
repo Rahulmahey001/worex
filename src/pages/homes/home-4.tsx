@@ -15,7 +15,7 @@ import AboutThree from "@/components/about/about-three";
 import BrandThree from "@/components/brand/brand-three";
 import ProjectFour from "@/components/project/project-four";
 import VideoThree from "@/components/video/video-three";
-import ServiceFour from "@/components/service/service-four";
+import ServiceFour from "@/components/aboutus/service-four";
 import ContactOne from "@/components/contact/contact-one";
 import FooterFour from "@/layouts/footers/footer-four";
 import { textInvert } from "@/utils/text-invert";
