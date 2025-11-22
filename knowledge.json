@@ -1,0 +1,30 @@
+{
+  "website": {
+    "name": "worex.in",
+    "title": "Worex - Better Living Guide",
+    "tagline": "Expert insights on Finance, Health, Tech, Grooming & Making Money"
+  },
+  
+  "topics": [
+    {
+      "name": "Finance & Investing",
+      "subtopics": ["Personal Finance", "Stock Market", "Cryptocurrency", "Saving Tips"]
+    },
+    {
+      "name": "Health & Wellness", 
+      "subtopics": ["Fitness", "Mental Health", "Nutrition", "Workout Routines"]
+    },
+    {
+      "name": "Software & Technology",
+      "subtopics": ["Software Tutorials", "Tech Reviews", "AI Tools", "App Guides"]
+    },
+    {
+      "name": "Personal Care & Grooming",
+      "subtopics": ["Skincare", "Hair Care", "Grooming Tips", "Product Reviews"]
+    },
+    {
+      "name": "Make Money Online",
+      "subtopics": ["Freelancing", "Affiliate Marketing", "Blogging", "Online Business"]
+    }
+  ]
+}

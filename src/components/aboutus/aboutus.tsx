@@ -13,7 +13,7 @@ export default function aboutus() {
           <div className="col-xl-10">
             <div className="sv-hero-title-box">
               <h4 className="sv-hero-title tp-char-animation">
-                About us page
+                About us
               </h4>
             </div>
           </div>
