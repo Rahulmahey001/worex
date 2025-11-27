@@ -92,7 +92,7 @@ const DisclaimerMain = () => {
         While we aim to provide accurate and updated information across topics such as:
       </p>
 
-      <ul>
+      <ul  className="pl-20 fs-6">
         <li>Finance & Investing</li>
         <li>Health & Wellness</li>
         <li>Software & Technology</li>
@@ -101,7 +101,7 @@ const DisclaimerMain = () => {
       </ul>
 
       <p>
-        ...we cannot guarantee that all information is 100% up-to-date or error-free. 
+        we cannot guarantee that all information is 100% up-to-date or error-free. 
         Readers are encouraged to verify details when needed.
       </p>
       <h5>5. External Links</h5>
