@@ -54,101 +54,95 @@ const PrivacypolicyMain = () => {
                         Privacy Policy
                       </span>
                       <h4 className="tp_fade_bottom">
-                        <p>
-    At <strong>Worex.in</strong>, accessible from our website, your privacy is one of our top priorities. 
-    This Privacy Policy outlines the types of information we collect, how we use it, how it is protected, 
-    and your rights regarding your data.
-  </p>
+                      <p>
+        Welcome to Worex ("we," "our," or "us"). We operate the website worex.in 
+        (the "Site"). Your privacy is important to us. This Privacy Policy 
+        explains the very limited ways we interact with data during your visit 
+        to our Site.
+      </p>
 
-  <h2>Information We Collect</h2>
-  <p>
-    We do not collect personal information unless you voluntarily provide it to us. The types of data we 
-    may collect include:
-  </p>
-  <ul>
-    <li><strong>Personal Information:</strong> Such as your name or email address when you contact us or subscribe to updates.</li>
-    <li><strong>Log Data:</strong> Standard information sent by your browser, such as IP address, browser type, pages visited, and time spent.</li>
-    <li><strong>Cookies:</strong> Small data files used to improve user experience and track website performance.</li>
-  </ul>
+      <hr className="my-4" />
 
-  <h2>How We Use Your Information</h2>
-  <p>Your information is used solely to improve the quality and relevance of our content. This includes:</p>
-  <ul>
-    <li>Enhancing the user experience on Worex.in</li>
-    <li>Improving and updating our website content</li>
-    <li>Understanding visitor behavior and trends</li>
-    <li>Replying to user inquiries</li>
-    <li>Sending updates (only if you subscribe)</li>
-  </ul>
+      {/* Section 1 */}
+      <h5 className="fw-semibold mt-4">1. Information We Do NOT Collect</h5>
+      <p>
+        To be perfectly clear, we do not collect any personal data from our users.
+        This means we do not ask for, store, or process any of the following:
+      </p>
+      <ul className="pl-20 fs-6">
+        <li>Names</li>
+        <li>Email addresses</li>
+        <li>Usernames</li>
+        <li>Physical addresses</li>
+        <li>Phone numbers</li>
+        <li>Any other personally identifiable information</li>
+      </ul>
+      <p>
+        We do not have comment sections, user accounts, or newsletter subscriptions 
+        that would require such data.
+      </p>
 
-  <h2>Content Categories We Cover</h2>
-  <p>
-    Our website provides expert insights and content in the following categories, but we do not collect 
-    sensitive data related to any of these:
-  </p>
+      <hr className="my-4" />
 
-  <ul>
-    <li><strong>Finance & Investing</strong> – Personal Finance, Saving Tips, Stock Market, Cryptocurrency</li>
-    <li><strong>Health & Wellness</strong> – Fitness, Nutrition, Mental Health, Workout Routines</li>
-    <li><strong>Software & Technology</strong> – Software Tutorials, Tech Reviews, App Guides, AI Tools</li>
-    <li><strong>Personal Care & Grooming</strong> – Skincare, Hair Care, Grooming Tips, Product Reviews</li>
-    <li><strong>Make Money Online</strong> – Freelancing, Affiliate Marketing, Blogging, Online Business</li>
-  </ul>
+      {/* Section 2 */}
+      <h5 className="fw-semibold mt-4">2. Automatically Collected Information (Non-Personal)</h5>
+      <p>
+        Like most websites, our hosting server may automatically log certain 
+        non-personal information for operational and analytical purposes. This 
+        data cannot be used to identify you personally and may include:
+      </p>
+      <ul className="pl-20 fs-6">
+        <li>Your IP address (anonymized where possible)</li>
+        <li>The type of browser and device you are using</li>
+        <li>Your operating system</li>
+        <li>The pages you visited on our site and the time spent on them</li>
+        <li>The referring website (if any) that led you to Worex</li>
+      </ul>
+      <p>
+        This information is used solely to analyze trends, administer the site, 
+        track user movement in aggregate, and gather broad demographic 
+        information for internal use.
+      </p>
 
-  <h2>Cookies and Tracking Technologies</h2>
-  <p>
-    Worex.in uses cookies to improve website performance and personalize your experience. Cookies help us 
-    analyze traffic, optimize pages, and ensure smooth functionality.
-    You can disable cookies anytime through your browser settings.
-  </p>
+      <hr className="my-4" />
 
-  <h2>Third-Party Services</h2>
-  <p>
-    We may use third-party services such as analytics tools (e.g., Google Analytics) to better understand 
-    website traffic and improve our content strategy. These tools may collect non-personal information 
-    such as device type and browsing behavior.
-  </p>
+      {/* Section 3 */}
+      <h5 className="fw-semibold mt-4">3. Third-Party Services</h5>
+      <p>
+        We use Google AdSense and other third-party advertising companies to 
+        serve ads when you visit our Site. These companies may use non-personal 
+        data (such as your browser type and pages visited) to provide 
+        advertisements about goods and services likely to be of greater interest 
+        to you.
+      </p>
 
-  <h2>External Links</h2>
-  <p>
-    Worex.in may contain links to external websites. We are not responsible for the content or privacy 
-    practices of those third-party websites. We encourage users to review the privacy policies of external sites.
-  </p>
+      <p><i>Google's Use of Cookies:</i> Google uses cookies to serve ads based on a user's prior visits to your website or other websites.</p>
 
-  <h2>Data Security</h2>
-  <p>
-    We use reasonable security measures to protect your information. However, no data transmission 
-    over the internet is 100% secure. By using our site, you acknowledge that you understand these limitations.
-  </p>
+      <p>
+        <i>Opting Out:</i> Users may opt out of personalized 
+        advertising by visiting Google's Ads Settings. Alternatively, you can 
+        opt out of a third-party vendor's use of cookies by visiting the 
+        Network Advertising Initiative opt-out page.
+      </p>
 
-  <h2>Children’s Privacy</h2>
-  <p>
-    Worex.in does not knowingly collect personal information from children under 13. 
-    If you believe a child has provided us with such information, please contact us immediately.
-  </p>
+      <hr className="my-4" />
 
-  <h2>Your Rights</h2>
-  <p>You have the right to:</p>
-  <ul>
-    <li>Request deletion of your personal information (if collected)</li>
-    <li>Opt out of newsletters or emails</li>
-    <li>Disable tracking cookies</li>
-    <li>Contact us for clarification about our privacy practices</li>
-  </ul>
+      {/* Section 4 */}
+      <h5 className="fw-semibold mt-4">4. Affiliate Marketing</h5>
+      <p>
+        We currently do not participate in any affiliate marketing programs. 
+        Therefore, no tracking links or cookies are used for the purpose of 
+        earning commission on sales.
+      </p>
 
-  <h2>Changes to This Privacy Policy</h2>
-  <p>
-    We may update this Privacy Policy from time to time. Any revised version will be posted on this page 
-    with an updated revision date.
-  </p>
+      <hr className="my-4" />
 
-  <h2>Contact Us</h2>
-  <p>
-    If you have questions about this Privacy Policy or our data practices, 
-    please reach out to us through the contact page on <strong>Worex.in</strong>.
-  </p>
-
-  <p><strong>Last Updated:</strong></p>
+      {/* Section 5 */}
+      <h5 className="fw-semibold mt-4">5. Contact Us</h5>
+      <p>
+        If you have any questions about this Privacy Policy, you can contact us 
+        by visiting our website: <i>worex.in</i>
+      </p>
                       </h4>
                     </div>
                   </div>
