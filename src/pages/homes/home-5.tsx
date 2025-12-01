@@ -14,7 +14,7 @@ import AboutFour from "@/components/about/about-four";
 import ProjectFive from "@/components/project/project-five";
 import CounterOne from "@/components/counter/counter-one";
 import MissionOne from "@/components/mission/mission-one";
-import ServiceFive from "@/components/aboutus/service-five";
+import ServiceFive from "@/components/about-us/service-five";
 import BlogOne from "@/components/blog/blog-one";
 import FooterFive from "@/layouts/footers/footer-five";
 // animation

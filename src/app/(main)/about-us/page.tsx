@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import AboutusMain from "@/pages/aboutus/aboutus";
+import AboutusMain from "@/pages/about-us/about-us";
 
 export const metadata: Metadata = {
   title: "Worex - Aboutus page",

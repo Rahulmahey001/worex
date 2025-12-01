@@ -11,7 +11,7 @@ import Wrapper from "@/layouts/wrapper";
 import HeaderThree from "@/layouts/headers/header-three";
 import HeroBannerThree from "@/components/hero-banner/hero-banner-three";
 import AboutTwo from "@/components/about/about-two";
-import ServiceThree from "@/components/aboutus/service-three";
+import ServiceThree from "@/components/about-us/service-three";
 import LineTextTwo from "@/components/line-text/line-text-2";
 import ProjectThree from "@/components/project/project-three";
 import BrandTwo from "@/components/brand/brand-two";

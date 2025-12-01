@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { AdsPopupProvider } from '../components/ads/AdsPopupContext';
+
 import {
   Syne,
   Aladin,
@@ -83,6 +85,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
+    
+
     <html lang="en" suppressHydrationWarning={true}>
       <body
         id="body"
@@ -115,6 +120,12 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4836337601841462"
           crossOrigin="anonymous"
         />
+
+    {/* <AdsPopupProvider 
+      defaultAdClient="ca-pub-XXXXXXXXXXXXXXX"
+      defaultAdSlot="XXXXXXXXXX"
+    >
+    </AdsPopupProvider> */}
 
           {children}</ThemeProvider>
       </body>

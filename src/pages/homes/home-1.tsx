@@ -14,7 +14,7 @@ import HeaderOne from "@/layouts/headers/header-one";
 import HeroBannerOne from "@/components/hero-banner/hero-banner-one";
 import VideOne from "@/components/video/video-one";
 import BrandOne from "@/components/brand/brand-one";
-import ServiceOne from "@/components/aboutus/service-one";
+import ServiceOne from "@/components/about-us/service-one";
 import ProjectOne from "@/components/project/project-one";
 import AwardOne from "@/components/award/award-one";
 import TeamOne from "@/components/team/team-one";
